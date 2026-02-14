@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #188;
+    color: #1d8e8f;
+    color: hsl(240, 50%, 50%);
+    color: khaki;
+}
+
+.highlight{
+    background: yellowgreen;
+}
+
+#unique{
+    font-weight: bolder;
+}
+
+/* Combinator Selector */
+div p{
+    color: red;
+    color: rgb(255, 0, 0);
+}
+
+div > span{
+    color: green;
+}
+
+h2 + p{
+    font-style: italic;
+}
+
+h3 ~ p{
+    color: purple;
+}
+
+/* Psuedo-class Selector */
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+li:nth-child(2){
+    color: khaki;
+}
+li:nth-child(3){
+    background-color: black;
+    color: #128;
+}
+li:last-child{
+    font-style: italic;
+}
+
+input:focus{
+    border: 2px dashed;
+}
+input:disabled{
+    background: #ccc;
+}
+
+/* Psuedo-element Selector */
+p::first-letter{
+    font-size: 3rem;
+    color: red;
+}
+p::first-line{
+    font-weight: bold;
+}
+
+h1::before{
+    content: " 🎆";
+}
+
+h1::after{
+    content: "🤝";
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    border: 2px solid #128;
+}
+
+a[href^="https"]{
+    color: green;
+}
+
+a[href$=".com"]{
+    text-decoration: none;
+}
+
+a[href*="example"]{
+    font-weight: bold;
+}

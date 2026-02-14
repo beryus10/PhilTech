@@ -1,0 +1,63 @@
+.indent{
+    text-indent: 100px;
+}
+
+.spacing1{
+    letter-spacing: 5px;
+}
+.spacing2{
+    letter-spacing: -2px;
+}
+
+.small{
+    line-height: 0.8;
+}
+.big{
+    line-height: 1.9;
+}
+
+.word1{
+    word-spacing: 10px;
+}
+.word2{
+    word-spacing: -3px;
+}
+
+.whiteSpace{
+    white-space: wrap;
+}
+
+.one{
+    font-family: cursive;
+    font-variant: small-caps;
+}
+.two{
+    font-family: sans-serif;
+    font-variant: normal;
+}
+.three{
+    font-family: fantasy;
+}
+.four{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ggf{
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ggf1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.ggf2{
+    font-family: "Merriweather", serif;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: green;
+}

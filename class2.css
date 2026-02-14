@@ -1,0 +1,52 @@
+/* body{
+    background-color: indigo;
+    color: wheat;
+} */
+
+body{
+    background-image: url(Image/bathroom.jpg);
+    background-image: url("Image/dj\ setup.jpg");
+    background-image: url('Image/screenshot.png');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: bottom left;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-size: cover;
+    filter: brightness(50%);
+
+} 
+
+div{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 10px;
+
+    /* background-color: lavender;
+    opacity: 0.5; */
+    
+    background-color: rgba(100, 150, 165, 0.5);
+}
+
+button{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.img{
+    background-image: url('Image/dj\ setup.jpg');
+    color: whitesmoke;
+    /* background-repeat: repeat-x; */
+    background-size: contain;
+    filter: blur(2px);
+
+}

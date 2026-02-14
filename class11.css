@@ -1,0 +1,116 @@
+a[target] {
+    background-color: yellow;
+}
+
+a[target="_self"]{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+[title~="food"]{
+    border: 5px solid gold;
+}
+
+[class|="top"]{
+    background-color: wheat;
+    width: 200px;
+}
+
+[class^="text"]{
+    background-color: #333;
+    color: whitesmoke;
+    width: 200px;
+}
+
+[class$="new"]{
+    background-color: brown;
+    color: whitesmoke;
+    width: 200px;
+}
+
+[class*="wo"]{
+    background-color: blue;
+    color: whitesmoke;
+    width: 200px;
+}
+
+form{
+    background: whitesmoke;
+    color: brown;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input{
+    display: block;
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: wheat; */
+}
+
+input[type="text"],
+input[type="password"]{
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+input[type="password"]:focus{
+    background-color: lightgoldenrodyellow;
+}
+
+button{
+    display: block;
+    width: 97%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover{
+    background: wheat;
+}
+
+/* body{
+    counter-reset: section;
+}
+
+h2::before{
+    counter-increment: section 10;
+    content: "Section " counter(section) ": ";
+} */
+
+body{
+    counter-reset: section;
+}
+
+h1{
+    counter-reset: subsection;
+}
+
+h1::before{
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+}
+
+h2::before{
+    counter-increment: subsection;
+    content: counter(section) ". " counter(subsection) "  ";
+}
+

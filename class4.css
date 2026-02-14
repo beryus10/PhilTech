@@ -1,0 +1,49 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.basic{
+    border: 2px dashed blue;
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    padding-top: 80px;
+    padding-right: 55px;
+    padding-bottom: 60px;
+    padding-left: 45px;
+}
+
+.shorthand{
+    border: 2px dotted #595;
+    background-color: greenyellow;
+    width: 250px;
+    padding: 10px 25px;
+}
+
+.new{
+    width: 250px;
+    border: 2px solid goldenrod;
+    padding: 10px;
+}
+
+.container{ 
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.card{
+    background-color: burlywood;
+    border: 2px solid brown;
+    padding: 20px;
+    width: 250px;
+}
+
+/* Text align */
+.a{text-align-last: right;}
+.b{text-align-last: center;}
+.c{text-align-last: justify;}

@@ -1,0 +1,127 @@
+.visible{
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    overflow: visible;
+}
+
+.hidden{
+    background-color: cadetblue;
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.scroll{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border: 1px solid brown;
+    overflow: scroll;
+}
+
+.auto{
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 100px;
+    border: 1px solid purple;
+    overflow: auto;
+}
+
+/* CSS FLOAT PPT */
+.left{
+    width: 50%;
+    margin: auto;
+    border: 4px solid burlywood;
+    padding: 20px;
+}
+
+.imgLeft{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.right{
+    width: 50%;
+    margin: auto;
+    border: 4px solid goldenrod;
+    padding: 20px;
+    text-align: justify;
+}
+
+.imgRight{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.none{
+    width: 50%;
+    margin: auto;
+    border: 4px solid wheat;
+    padding: 20px;
+    text-align: justify;
+}
+
+.imgNone{
+    float: none;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Clear & Clearfix PPT */
+.div1{
+    float: left;
+    padding: 10px;
+    border: 3px solid green;
+}
+
+.div2{
+    padding: 10px;
+    border: 3px solid red;
+    width: 200px;
+}
+
+.div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid green;
+}
+
+.div4{
+    clear: left;
+    padding: 10px;
+    border: 3px solid red;
+    width: 200px;
+}
+
+/* CLEARFIX */
+.div5{
+    border: 3px solid greenyellow;
+    padding: 10px;
+}
+
+.img1{
+    float: right;
+}
+
+.img2{
+    float: right;
+}
+
+.clearfix{
+    padding: 10px;
+    border: 3px solid greenyellow;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: table;
+}

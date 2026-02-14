@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+
+        <!-- SideBar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="overlay" id="overlay"></div>
+            <h2>Admin Panel</h2>
+
+            <a class="active" href="#"> <i class="fa-solid fa-house"></i>Dashboard</a>
+            <a href="#"> <i class="fa-regular fa-user"></i>Users</a>
+            <a href="#"> <i class="fa-solid fa-box"></i>Products</a>
+            <a href="#"> <i class="fa-solid fa-chart-area"></i>Analytics</a>
+            <a
+             href="#"> <i class="fa-solid fa-gear"></i>Settings</a>
+        </aside>
+
+        <!-- main -->
+        <main class="main">
+
+            <!-- header -->
+            <header class="header">
+
+                <!-- hambugger -->
+                 <i class="fa-solid fa-bars hambugger" id="menuBtn"></i>
+
+                 <input type="text" placeholder="Search...">
+
+                 <div class="profile">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-circle-user"></i>
+                 </div>
+
+            </header>
+
+            <section class="cards">
+                <div class="card">
+                    <i class="fa-regular fa-user"></i>
+                    <h3>1,450</h3>
+                    <p>Total Users</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>320</h3>
+                    <p>Total Orders</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <h3>$12,450</h3>
+                    <p>Total Revenue</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>15%</h3>
+                    <p>Growth Rate</p>
+                </div>
+            </section>
+
+            <!-- Table -->
+             <section class="table-section">
+                <h3>Recent Orders</h3>
+
+                <table>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Laptop</td>
+                        <td class="success">Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Smartphone</td>
+                        <td class="pending">Pending</td>
+                    </tr>
+                </table>
+             </section>
+        </main>
+    </div>
+
+
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+
+        menuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('show');
+            overlay.classList.toggle('show');
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.remove('show');
+            overlay.classList.remove('show');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* p{
+    padding: 10px;
+    color: #333; */
+/* }
+
+.dotted{border-style: dotted;}
+.dashed{border-style: dashed;}
+.solid{border-style: solid;}
+.double{border-style: double;}
+.groove{border-style: groove;}
+.ridge{border-style: ridge;}
+.inset{border-style: inset;}
+.outset{border-style: outset;}
+.none{border-style: none;}
+.hidden{border-style: hidden;}
+.mix{border-style: solid groove dashed dotted;} */
+
+/* Border width */
+/* .thin{border-style: dashed; border-width: thin;}
+.medium{border-style: groove; border-width: medium;}
+.thick{border-style: ridge; border-width: thick;}
+.other1{border-style: solid; border-width: 4px 13px 40px 20px;}
+.oher2{border-style: inset; border-width: 5pt 20pt;} */
+
+/* Border Color */
+/* .mixColor{border-style: dashed dotted; border-width: 5px 10px; border-color: blue red #847 orange;} */
+
+/* Border Sides */
+/* .left{border-style: solid; border-width: 0px 0px 0px 15px;}
+.bottom{border-style: solid; border-width: 0px 0px 5px 0px;} */
+
+/* Rounded Border */
+/* .round1{border-style: groove; border-width: 5px 10px; border-radius: 20px;}
+.round2{border-style: double; border-width: 5px 10px; border-radius: 20%;} */
+
+/* Border Shorthand */
+/* .leftNew{
+    border-left: 5px solid red;
+    background-color: wheat;
+    border-radius: 3px;
+}
+
+.bottomNew{
+    border-bottom: 10px dashed greenyellow;
+} */
+
+/* MARGIN */
+.ex1{
+    border: 2px solid #847;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ex2{
+    border: 2px solid #316;
+    width: 250px;
+    margin: 50px 0px 0px 500px;
+}
+
+.ex3{
+    border: 2px solid #915;
+    width: 250px;
+    margin: auto;
+    position: relative;
+}
+
+.ex4{
+    border: 2px dashed #195;
+    width: 250px;
+    margin: 50pt auto;
+    position: relative;
+}
+
+.ex5{
+    border: 2px dotted #090;
+    margin-left: 200px;
+    width: 400px;
+}
+
+.inherit{
+    margin-left: inherit;
+    border: 1px ridge #876;
+}
+
+.eex{
+    width: 300px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    margin-bottom: 10px;
+}
+
+.exx{
+    width: 300px;
+    height: 100px;
+    border: 2px solid royalblue;
+    margin-top: 20px;
+}
